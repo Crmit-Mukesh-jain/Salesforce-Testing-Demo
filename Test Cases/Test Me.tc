@@ -4,5 +4,6 @@
    <name>Test Me</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e0ca62bd-dad3-4de4-9be6-119de82cf0fc</testCaseGuid>
 </TestCaseEntity>

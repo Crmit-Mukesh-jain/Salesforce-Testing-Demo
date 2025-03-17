@@ -4,5 +4,6 @@
    <name>Create a Lead</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>67f0cd2c-c10e-4ebf-9946-28ed55f825c1</testCaseGuid>
 </TestCaseEntity>

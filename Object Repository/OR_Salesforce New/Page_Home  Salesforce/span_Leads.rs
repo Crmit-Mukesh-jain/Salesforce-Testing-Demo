@@ -6,18 +6,19 @@
    <elementGuidId>74da59d9-9092-4e9b-aea3-0af2cb7f8be8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Leads' or . = 'Leads')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]</value>
+         <value>//one-app-nav-bar-item-root[3]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Leads' or . = 'Leads')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -25,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>070c22c6-80ac-40c2-936b-219fe9155c37</webElementGuid>
+      <webElementGuid>6da137da-3802-457a-a906-01c4368180f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>slds-truncate</value>
-      <webElementGuid>88b78fb8-05ff-45a5-8036-03f1e982b031</webElementGuid>
+      <webElementGuid>2d7d1e7a-486f-40b6-94e7-7929d5caaabb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Leads</value>
-      <webElementGuid>942d4f32-0132-434e-b42d-9a7ffef037c3</webElementGuid>
+      <webElementGuid>e4814173-ae22-484e-865b-ffd9f71188e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;desktop&quot;]/div[@class=&quot;desktop container forceStyle oneOne navexDesktopLayoutContainer lafAppLayoutHost forceAccess tablet&quot;]/div[@class=&quot;viewport&quot;]/section[@class=&quot;layoutContent stage panelSlide hasFixedFooter&quot;]/div[@class=&quot;none navexStandardManager&quot;]/div[@class=&quot;slds-no-print oneAppNavContainer&quot;]/one-appnav[1]/div[@class=&quot;slds-context-bar&quot;]/one-app-nav-bar[@class=&quot;slds-grid slds-has-flexi-truncate&quot;]/nav[@class=&quot;slds-context-bar__secondary navCenter&quot;]/div[@class=&quot;slds-grid slds-has-flexi-truncate navUL&quot;]/one-app-nav-bar-item-root[@class=&quot;navItem slds-context-bar__item slds-shrink-none&quot;]/a[@class=&quot;slds-context-bar__label-action dndItem&quot;]/span[@class=&quot;slds-truncate&quot;]</value>
-      <webElementGuid>5d1fb878-7524-437d-9bf9-d82c829ec44f</webElementGuid>
+      <webElementGuid>71c8209f-79b2-4157-bbd7-9a61631d2dd3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Chatter'])[1]/following::span[1]</value>
-      <webElementGuid>fae673e2-79f3-42b9-a8ae-a174c69bb26c</webElementGuid>
+      <webElementGuid>fdea955f-3272-490e-828a-f6e68121d5af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::span[2]</value>
-      <webElementGuid>1cfbbf16-1d50-4b62-9d57-ad0e2ea4cd5a</webElementGuid>
+      <webElementGuid>f8c393f7-db02-4fc7-b507-ca6825e42c9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leads Menu'])[1]/preceding::span[1]</value>
-      <webElementGuid>c5bb3d4e-d742-4f14-8873-8df9f31f7109</webElementGuid>
+      <webElementGuid>a227ccc8-fb58-4d74-8abd-77e9d3418d86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accounts'])[1]/preceding::span[2]</value>
-      <webElementGuid>8898aa01-6ea8-4953-8ef8-ea1add58effb</webElementGuid>
+      <webElementGuid>620f26f2-3398-4920-9db6-c9ef27f2c100</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Leads']/parent::*</value>
-      <webElementGuid>088c3555-442f-46db-8375-c44bea1eafab</webElementGuid>
+      <webElementGuid>f6d05a3b-7bcf-48b8-bd27-9f93dd4d2f0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +98,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Leads' or . = 'Leads')]</value>
-      <webElementGuid>8900469b-bfe5-49a6-8801-1ab12d91f7d7</webElementGuid>
+      <webElementGuid>ce16f5ef-0b07-42c3-97ab-3d00497120c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +106,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//one-app-nav-bar-item-root[3]/a/span</value>
-      <webElementGuid>9fcd1f52-059c-4372-a28a-9e01c1dd5134</webElementGuid>
+      <webElementGuid>66b775c8-8e69-41fd-8944-f4af31a23947</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

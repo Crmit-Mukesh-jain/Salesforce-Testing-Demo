@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'))
+WebUI.enhancedClick(findTestObject('OR_Salesforce New/Page_Home  Salesforce/span_Leads'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_New'))
+WebUI.click(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_New'))
 
 WebUI.click(findTestObject('OR_Salesforce New/Page_New Lead  Salesforce/button_--None--'))
 

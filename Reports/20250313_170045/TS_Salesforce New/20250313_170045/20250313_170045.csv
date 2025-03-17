@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Salesforce New,,,,13-03-2025 17:00:53,13-03-2025 17:00:59,6.225s,FAILED
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce,,,,13-03-2025 17:00:53,13-03-2025 17:00:59,5.706s,FAILED
+Start listener action : sampleBeforeTestCase3,,,,13-03-2025 17:00:53,13-03-2025 17:00:53,0.070s,ERROR
+"openBrowser("""")",,,,13-03-2025 17:00:53,13-03-2025 17:00:59,5.323s,FAILED
+Start listener action : sampleAfterTestCase2,,,,13-03-2025 17:00:59,13-03-2025 17:00:59,0.014s,ERROR
+,,,,,,,
+Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead,,,,13-03-2025 17:00:59,13-03-2025 17:00:59,0.274s,FAILED
+Start listener action : sampleBeforeTestCase3,,,,13-03-2025 17:00:59,13-03-2025 17:00:59,0.007s,ERROR
+"enhancedClick(findTestObject(""Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads""))",,,,13-03-2025 17:00:59,13-03-2025 17:00:59,0.157s,FAILED
+Start listener action : sampleAfterTestCase2,,,,13-03-2025 17:00:59,13-03-2025 17:00:59,0.007s,ERROR

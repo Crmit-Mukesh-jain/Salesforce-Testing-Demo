@@ -6,27 +6,22 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://katalon-inc--demo.sandbox.my.salesforce.com/'</initValue>
+      <initValue>'https://crmit154-dev-ed.my.salesforce.com'</initValue>
       <name>APP_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Enter your username'</initValue>
+      <initValue>'mukesh.jain@crmit.com'</initValue>
       <name>USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Enter your password'</initValue>
+      <initValue>'hGQ+XlR2jBrYzu0CHPVDAQ=='</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'00000001'</initValue>
+      <initValue>''</initValue>
       <name>caseNumber</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'false'</initValue>
-      <name>SKIP_REMAINING_TESTS</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

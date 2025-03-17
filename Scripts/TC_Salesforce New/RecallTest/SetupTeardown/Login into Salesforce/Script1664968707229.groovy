@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(2650, 1400)
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.APP_URL)
 
@@ -30,5 +30,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OR_Salesforce New/Page_
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Sales Manager'), 
-    10)
+    5)
+
+WebUI.enhancedClick(findTestObject('OR_Salesforce New/Page_Home  Salesforce/div_App Launcher'))
+
+WebUI.click(findTestObject('OR_Salesforce New/Page_Home  Salesforce/p_Sales Manager'))
 
