@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Test the Keywords</description>
+   <name>To Test the Keywords 0002</name>
+   <tag>Keyword002</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf7efea7-1656-409e-9570-e923c48c7c8b</testCaseGuid>
+</TestCaseEntity>
