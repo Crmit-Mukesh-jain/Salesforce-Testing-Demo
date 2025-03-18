@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestSuiteCollectionEntity>
-   <description>TestNewSuite002</description>
-   <name>TestNewSuite002</name>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20250317_154407</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
-   <testSuiteRunConfigurations>
-      <TestSuiteRunConfiguration>
-         <configuration>
+   <displayName>20250317_154407</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20250317_154407/TestNewSuite001/20250317_154408</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -24,7 +23,7 @@
   &quot;os&quot;: &quot;windows&quot;,
   &quot;platformName&quot;: &quot;IOS&quot;,
   &quot;timeout&quot;: 15,
-  &quot;usingTunnel&quot;: false,
+  &quot;usingTunnel&quot;: true,
   &quot;isHighAvailableDevice&quot;: false
 }</value>
                </entry>
@@ -34,9 +33,9 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TestNewSuite001</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-   </testSuiteRunConfigurations>
-</TestSuiteCollectionEntity>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/TestNewSuite002</testSuiteCollectionId>
+</ReportCollectionEntity>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestNewSuite001,,TestNewSuite001,,17-03-2025 15:41:51,17-03-2025 15:41:58,6.856s,FAILED
+,,,,,,,
+Test Cases/To Test the Keywords,,To Test the Keywords,Keyword,17-03-2025 15:41:57,17-03-2025 15:41:58,1.117s,FAILED
+Start listener action : sampleBeforeTestCase3,,,,17-03-2025 15:41:57,17-03-2025 15:41:57,0.007s,ERROR
+"openBrowser("""")",,,,17-03-2025 15:41:57,17-03-2025 15:41:58,1.078s,FAILED
+Start listener action : sampleAfterTestCase2,,,,17-03-2025 15:41:58,17-03-2025 15:41:58,0.007s,ERROR

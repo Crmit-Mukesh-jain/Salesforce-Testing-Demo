@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestNewSuite001" time="93.698" tests="1" failures="0" errors="0">
+   <testsuite name="TestNewSuite001" tests="1" failures="0" errors="0" time="93.698" skipped="0" timestamp="17-03-2025T15:44:54" hostname="mukesh.jain_crmit - SLTB229" id="Test Suites/TestNewSuite001">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\mukesh.jain_crmit\\git\\Salesforce-Testing-Demo\\Reports\\20250317_154446\\TestNewSuite001\\20250317_154447"/>
+         <property name="logFiles" value="C:\\Users\\mukesh.jain_crmit\\git\\Salesforce-Testing-Demo\\Reports\\20250317_154446\\TestNewSuite001\\20250317_154447\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mukesh.jain_crmit - SLTB229"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/wd/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;msedge&quot;: {&#xa;    &quot;msedgedriverVersion&quot;: &quot;135.0.3179.11 (fa18f28fe3a818fbb280100621a7427f79079be7-refs/heads/main@{#1430443})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir3404_1370441755&quot;&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;135.0.3179.11&quot;,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;7b606616-e728-4caa-96f8-7f5356cca522&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;065a04a6-0eef-44fb-aa1c-95ff5eaf5354&quot;&#xa;  },&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;MicrosoftEdge&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;ms:edgeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:50372&quot;&#xa;  },&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Edge Chromium 135.0.3179.11"/>
+         <property name="hostAddress" value="192.168.10.127"/>
+         <property name="sessionId" value="065a04a6-0eef-44fb-aa1c-95ff5eaf5354"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/To Test the Keywords" time="93.537" classname="Test Cases/To Test the Keywords" status="PASSED">
+         <system-out><![CDATA[17-03-2025T15:44:55 - [TEST_CASE][PASSED] - Test Cases/To Test the Keywords: Test Cases/To Test the Keywords
+
+17-03-2025T15:44:55 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase3: groovy.lang.MissingPropertyException: No such property: SKIP_REMAINING_TESTS for class: internal.GlobalVariable
+	at WebTestListener.sampleBeforeTestCase3(WebTestListener.groovy:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742206487985.run(TempTestSuite1742206487985.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+17-03-2025T15:44:55 - [TEST_STEP][ERROR] - if (SKIP_REMAINING_TESTS == true): groovy.lang.MissingPropertyException: No such property: SKIP_REMAINING_TESTS for class: internal.GlobalVariable
+	at WebTestListener.sampleBeforeTestCase3(WebTestListener.groovy:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742206487985.run(TempTestSuite1742206487985.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+17-03-2025T15:44:55 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: SKIP_REMAINING_TESTS for class: internal.GlobalVariable
+	at WebTestListener.sampleBeforeTestCase3(WebTestListener.groovy:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742206487985.run(TempTestSuite1742206487985.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+17-03-2025T15:44:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-03-2025T15:44:55 - [MESSAGE][INFO] - User set preference: ['browserVersion', '135']
+
+17-03-2025T15:44:55 - [MESSAGE][INFO] - User set preference: ['browserName', 'msedge']
+
+17-03-2025T15:44:55 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+17-03-2025T15:44:55 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1700240, accountId=1425610, channel=kse;v=10.1.0}, executionMode=queue, usingTunnel=false}']
+
+17-03-2025T15:44:55 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+
+17-03-2025T15:44:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-03-2025T15:45:13 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+17-03-2025T15:45:13 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+17-03-2025T15:45:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-03-2025T15:45:14 - [TEST_STEP][PASSED] - navigateToUrl("https://crmit154-dev-ed.my.salesforce.com"): Navigate to 'https://crmit154-dev-ed.my.salesforce.com' successfully
+
+17-03-2025T15:45:15 - [MESSAGE][PASSED] - Navigate to 'https://crmit154-dev-ed.my.salesforce.com' successfully
+
+17-03-2025T15:45:15 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:16 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:16 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:17 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:19 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:19 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:19 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:19 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:20 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:20 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:22 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:22 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:22 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:23 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:23 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:23 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:25 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:25 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:25 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:26 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:26 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:27 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:28 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:28 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:28 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:29 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:29 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:30 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:32 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:32 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:32 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:32 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:33 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:33 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:35 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:35 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:35 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:35 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:36 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:36 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:38 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:38 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:38 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:38 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:39 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:39 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:41 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:41 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:41 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:42 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:42 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:42 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:44 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:44 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:44 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:45 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:45 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:46 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:48 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:48 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:48 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:48 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:49 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:49 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:51 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:51 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize is PASSED
+
+17-03-2025T15:45:51 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize1(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize1 is PASSED
+
+17-03-2025T15:45:51 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:52 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:52 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:54 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:54 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize1 is PASSED
+
+17-03-2025T15:45:54 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize2(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize2 is PASSED
+
+17-03-2025T15:45:54 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:55 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:55 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:45:57 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:45:57 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize2 is PASSED
+
+17-03-2025T15:45:57 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize3(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize3 is PASSED
+
+17-03-2025T15:45:58 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:45:58 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:45:59 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:46:00 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:46:00 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize3 is PASSED
+
+17-03-2025T15:46:00 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize4(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize4 is PASSED
+
+17-03-2025T15:46:01 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:46:02 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:46:02 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:46:04 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:46:04 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize4 is PASSED
+
+17-03-2025T15:46:04 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize5(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize5 is PASSED
+
+17-03-2025T15:46:05 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:46:05 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:46:05 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:46:07 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:46:07 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize5 is PASSED
+
+17-03-2025T15:46:07 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize6(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize6 is PASSED
+
+17-03-2025T15:46:08 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:46:08 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:46:09 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:46:10 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:46:10 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize6 is PASSED
+
+17-03-2025T15:46:10 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize7(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize7 is PASSED
+
+17-03-2025T15:46:11 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:46:12 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:46:12 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:46:14 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:46:14 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize7 is PASSED
+
+17-03-2025T15:46:14 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize8(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize8 is PASSED
+
+17-03-2025T15:46:14 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:46:15 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:46:15 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:46:17 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:46:17 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize8 is PASSED
+
+17-03-2025T15:46:17 - [TEST_STEP][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize9(1200, 800): webKeywords.ApplicationFunction.enhanced_SetViewportSize9 is PASSED
+
+17-03-2025T15:46:17 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerWidth || 0)' successfully
+
+17-03-2025T15:46:18 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.innerHeight || 0)' successfully
+
+17-03-2025T15:46:18 - [MESSAGE][PASSED] - Execute JavaScript 'return (window.devicePixelRatio || 1)' successfully
+
+17-03-2025T15:46:20 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1224 and height = 938
+
+17-03-2025T15:46:20 - [MESSAGE][PASSED] - webKeywords.ApplicationFunction.enhanced_SetViewportSize9 is PASSED
+
+17-03-2025T15:46:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OR_Salesforce New/Page_Login  Salesforce/input_Username_username")): Object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username' is clickable
+
+17-03-2025T15:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username' is clickable
+
+17-03-2025T15:46:21 - [TEST_STEP][PASSED] - click(findTestObject("OR_Salesforce New/Page_Login  Salesforce/input_Username_username")): Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username' is clicked on
+
+17-03-2025T15:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username' is clicked on
+
+17-03-2025T15:46:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OR_Salesforce New/Page_Login  Salesforce/input_Password_pw")): Object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw' is clickable
+
+17-03-2025T15:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw' is clickable
+
+17-03-2025T15:46:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("OR_Salesforce New/Page_Login  Salesforce/input_Password_pw")): Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw' is clicked on
+
+17-03-2025T15:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw' is clicked on
+
+17-03-2025T15:46:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OR_Salesforce New/Page_Login  Salesforce/input_Password_Login")): Object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login' is clickable
+
+17-03-2025T15:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login' is clickable
+
+17-03-2025T15:46:27 - [TEST_STEP][PASSED] - click(findTestObject("OR_Salesforce New/Page_Login  Salesforce/input_Password_Login")): Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+17-03-2025T15:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+17-03-2025T15:46:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase2: null
+
+17-03-2025T15:46:28 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-03-2025T15:44:54 - [TEST_SUITE][PASSED] - TestNewSuite001: Test Cases/To Test the Keywords]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

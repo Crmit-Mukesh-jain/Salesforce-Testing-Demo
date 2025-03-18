@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.enhancedClick(findTestObject('OR_Salesforce New/Page_Home  Salesforce/span_Leads'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_New'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OR_Salesforce New/Page_New Lead  Salesforce/button_--None--'))
 

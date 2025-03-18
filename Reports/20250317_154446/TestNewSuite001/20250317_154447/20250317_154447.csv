@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestNewSuite001,TestCloud - Windows - Edge Chromium 135.0.3179.11,TestNewSuite001,,17-03-2025 15:44:54,17-03-2025 15:46:28,1m - 33.698s,PASSED
+,,,,,,,
+Test Cases/To Test the Keywords,TestCloud - Windows - Edge Chromium 135.0.3179.11,To Test the Keywords,Keyword,17-03-2025 15:44:55,17-03-2025 15:46:28,1m - 33.537s,PASSED
+Start listener action : sampleBeforeTestCase3,TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:44:55,17-03-2025 15:44:55,0.042s,ERROR
+"openBrowser("""")",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:44:55,17-03-2025 15:45:14,18.839s,PASSED
+"navigateToUrl(""https://crmit154-dev-ed.my.salesforce.com"")",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:14,17-03-2025 15:45:15,1.294s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:15,17-03-2025 15:45:19,3.869s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:19,17-03-2025 15:45:22,3.170s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:22,17-03-2025 15:45:25,3.245s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:25,17-03-2025 15:45:28,3.135s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:28,17-03-2025 15:45:32,3.124s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:32,17-03-2025 15:45:35,3.120s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:35,17-03-2025 15:45:38,3.175s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:38,17-03-2025 15:45:41,3.242s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:41,17-03-2025 15:45:44,3.292s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:44,17-03-2025 15:45:48,3.235s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:48,17-03-2025 15:45:51,3.231s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize1(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:51,17-03-2025 15:45:54,3.126s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize2(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:54,17-03-2025 15:45:57,3.275s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize3(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:45:57,17-03-2025 15:46:00,3.217s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize4(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:00,17-03-2025 15:46:04,3.230s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize5(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:04,17-03-2025 15:46:07,3.597s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize6(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:07,17-03-2025 15:46:10,3.218s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize7(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:10,17-03-2025 15:46:14,3.176s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize8(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:14,17-03-2025 15:46:17,3.165s,PASSED
+"webKeywords.ApplicationFunction.enhanced_SetViewportSize9(1200, 800)",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:17,17-03-2025 15:46:20,3.185s,PASSED
+"verifyElementClickable(findTestObject(""OR_Salesforce New/Page_Login  Salesforce/input_Username_username""))",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:20,17-03-2025 15:46:21,1.329s,PASSED
+"click(findTestObject(""OR_Salesforce New/Page_Login  Salesforce/input_Username_username""))",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:21,17-03-2025 15:46:23,1.362s,PASSED
+"verifyElementClickable(findTestObject(""OR_Salesforce New/Page_Login  Salesforce/input_Password_pw""))",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:23,17-03-2025 15:46:24,1.266s,PASSED
+"enhancedClick(findTestObject(""OR_Salesforce New/Page_Login  Salesforce/input_Password_pw""))",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:24,17-03-2025 15:46:25,1.307s,PASSED
+"verifyElementClickable(findTestObject(""OR_Salesforce New/Page_Login  Salesforce/input_Password_Login""))",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:25,17-03-2025 15:46:27,1.251s,PASSED
+"click(findTestObject(""OR_Salesforce New/Page_Login  Salesforce/input_Password_Login""))",TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:27,17-03-2025 15:46:28,1.650s,PASSED
+Start listener action : sampleAfterTestCase2,TestCloud - Windows - Edge Chromium 135.0.3179.11,,,17-03-2025 15:46:28,17-03-2025 15:46:28,0.010s,PASSED
