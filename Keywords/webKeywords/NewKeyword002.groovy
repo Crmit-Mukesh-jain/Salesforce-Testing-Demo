@@ -43,7 +43,7 @@ class NewKeyword002 {
 	 * Refresh browser
 	 */
 	@Keyword
-	def refreshBrowser() {
+	def refreshBrowser02() {
 		KeywordUtil.logInfo("Refreshing")
 		WebDriver webDriver = DriverFactory.getWebDriver()
 		webDriver.navigate().refresh()

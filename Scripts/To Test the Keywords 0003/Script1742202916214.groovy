@@ -23,45 +23,9 @@ WebUI.navigateToUrl('https://crmit154-dev-ed.my.salesforce.com')
 
 CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
 
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize1'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize2'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize3'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize4'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize5'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize6'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize7'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize8'(1200, 800)
-
-CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize9'(1200, 800)
-
 WebUI.verifyElementClickable(findTestObject('OR_Salesforce New/Page_Login  Salesforce/input_Username_username'))
+
+CustomKeywords.'webKeywords.ApplicationFunction.enhanced_SetViewportSize'(1200, 800)
 
 WebUI.click(findTestObject('OR_Salesforce New/Page_Login  Salesforce/input_Username_username'))
 
@@ -72,4 +36,26 @@ WebUI.enhancedClick(findTestObject('OR_Salesforce New/Page_Login  Salesforce/inp
 WebUI.verifyElementClickable(findTestObject('OR_Salesforce New/Page_Login  Salesforce/input_Password_Login'))
 
 WebUI.click(findTestObject('OR_Salesforce New/Page_Login  Salesforce/input_Password_Login'))
+
+CustomKeywords.'webKeywords.NewKeyword001.refreshBrowser01'()
+
+CustomKeywords.'webKeywords.NewKeyword002.refreshBrowser02'()
+
+CustomKeywords.'webKeywords.NewKeyword003.refreshBrowser03'()
+
+CustomKeywords.'webKeywords.NewKeyword004.refreshBrowser04'()
+
+CustomKeywords.'webKeywords.NewKeyword004.refreshBrowser04'()
+
+CustomKeywords.'webKeywords.NewKeyword005.refreshBrowser05'()
+
+CustomKeywords.'webKeywords.NewKeyword006.refreshBrowser06'()
+
+CustomKeywords.'webKeywords.NewKeyword007.refreshBrowser07'()
+
+CustomKeywords.'webKeywords.NewKeyword008.refreshBrowser08'()
+
+CustomKeywords.'webKeywords.NewKeyword009.refreshBrowser09'()
+
+CustomKeywords.'webKeywords.NewKeyword010.refreshBrowser10'()
 

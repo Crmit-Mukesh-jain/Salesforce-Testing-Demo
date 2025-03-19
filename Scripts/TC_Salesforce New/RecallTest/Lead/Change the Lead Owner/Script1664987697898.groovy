@@ -19,16 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Leads'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Action_slds-checkbox--faux'))
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_Change Owner'))
+
+WebUI.delay(4)
 
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/input_Pick an object_92023a'), 
     'Srivatsa ')
 
 WebUI.delay(4)
 
-WebUI.enhancedClick(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img_Mohit Kuma_icon', [('username') : 'Srivatsa']))
+WebUI.clickImage(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img_Mohit Kuma_icon', [('username') : 'Srivatsa']))
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Submit'))
 

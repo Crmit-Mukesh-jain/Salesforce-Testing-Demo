@@ -23,7 +23,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_New'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('OR_Salesforce New/Page_New Lead  Salesforce/button_--None--'))
 
@@ -34,27 +34,11 @@ WebUI.click(findTestObject('OR_Salesforce New/Page_New Lead  Salesforce/span_Mr'
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_First Name_firstName'), 
     'Mohit')
 
-WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_Middle Name_middleName'), 
-    'Kumar')
-
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input__lastName'), 'Sharma')
-
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_New'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/span_Working'))
-
-WebUI.click(findTestObject('OR_Salesforce New/Page_New Lead  Salesforce/button_--None-- (1)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/span_Information Technology'))
 
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_Title_Title'), 'QA')
 
-WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_Department_Department__c'), 
-    'Testing')
+WebUI.setText(findTestObject('OR_Salesforce New/Lead/Page_New Lead  Salesforce/input__Company'), 'Testing')
 
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/div_Email'), 'mohit.kumar@katalon.com')
 

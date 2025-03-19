@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Action_slds-checkbox--faux'))
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_Change Status'))
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/a_New (1)'))
-
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/a_Calendly'))
+WebUI.enhancedClick(findTestObject('OR_Salesforce New/Lead/Page_Recently Viewed  Leads  Salesforce/a_Open - Not Contacted'))
+
+WebUI.delay(1)
 
 WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/button_Save'))
 
